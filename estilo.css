@@ -1,0 +1,33 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 1024px;
+}
+
+.logo {
+    width: 120px;
+    height: 48px;
+}
+
+.leyenda {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /*color: #0A3871;*/
+}
+
+.textoInicial {
+    width: 270px;
+    height: 48px;
+
+}
+
+.contenedor1{background-color: aqua;}
+.contenedor2{background-color: blue;}
+.contenedor3{background-color: rgb(226, 43, 43);
+position: absolute;
+right: 0;
+}

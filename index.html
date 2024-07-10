@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Proyecto Encriptador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <main class="principal">
+
+        <div class="contenedor1">
+            <img class="logo" src="./assets/Logo.png" alt="logo de alura">
+            <p class="leyenda"> Solo letras minúsculas y sin acentos</p>
+            <input type="text" id="textoInicial" pattern="[a-z]+" required>
+
+        </div>
+
+        <div class="contenedor2">
+            <button onclick="encriptar()" class="boton_encriptar">Encriptar</button>
+            <button onclick="desencriptar()">Desencriptar</button>
+            <button onclick="copiarTextoEncriptado()">Copiar Texto Encriptado</button>
+        </div>
+
+        <div>
+            <label for="textoEncriptado">Desencriptar:</label>
+            <textarea id="textoEncriptado" placeholder="!ingresa el texto a Desencriptar!"></textarea>
+        </div>
+
+        <div class="contendor3">
+            <img src="./assets/Muñeco.png" alt="imagen de muñeco">
+        </div>
+
+    </main>
+</body>
+<script src="app.js"></script>
+
+</html>
